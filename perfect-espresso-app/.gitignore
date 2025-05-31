@@ -1,0 +1,75 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node.js
+node_modules/
+/dist/
+/build/
+/out/
+/coverage/
+npm-debug.log
+.npm/
+.nyc_output/
+.temp/
+.DS_Store # macOS system file
+Thumbs.db # Windows system file
+
+# Compiled JavaScript
+*.js.map
+*.jsx.map
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor/IDE specific files
+.idea/             # IntelliJ IDEA
+.vscode/           # VS Code (consider keeping settings.json or extensions.json if shared)
+*.iml              # IntelliJ IDEA module files
+.project           # Eclipse
+.classpath         # Eclipse
+.settings/         # Eclipse
+*.sublime-project  # Sublime Text
+*.sublime-workspace# Sublime Text
+
+# npm package manager cache
+.npm/
+
+# Yarn package manager cache
+.yarn/
+.yarn-integrity
+
+# Other temporary files
+*.tmp
+*.bak
+*~
+~*
